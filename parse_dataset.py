@@ -4,7 +4,7 @@ import cv2
 import os
 
 
-API_KEY = "89b8a8d9bca0466781a864890758c6f3"
+API_KEY = "YOUR_API_KEY"
 MAX_RESULTS = 4000
 GROUP_SIZE = 100
 URL = "https://api.cognitive.microsoft.com/bing/v7.0/images/search"
