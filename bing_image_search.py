@@ -7,8 +7,8 @@ import os
 subscription_key = "YOUR_API_KEY"
 search_terms = ['girl', 'man']
 number_of_images_per_request = 100
-search_url = "https://api.cognitive.microsoft.com/bing/v5.0/images/search"
-# search_url = "https://api.cognitive.microsoft.com/bing/v7.0/images/search"
+search_url = "https://api.cognitive.microsoft.com/bing/v7.0/images/search"
+# search_url = "https://api.cognitive.microsoft.com/bing/v5.0/images/search"
 
 EXCEPTIONS = {IOError, FileNotFoundError, exceptions.RequestException,
               exceptions.HTTPError, exceptions.ConnectionError, exceptions.Timeout}
