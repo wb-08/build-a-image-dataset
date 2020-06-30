@@ -15,10 +15,10 @@ def enter_in_account():
     button_enter.click()
     sleep(2)
     login = browser.find_element_by_xpath("//*[@class='_2hvTZ pexuQ zyHYP']")
-    login.send_keys('')
+    login.send_keys('LOGIN')
     sleep(1)
     password = browser.find_element_by_xpath("//*[@class='_2hvTZ pexuQ zyHYP']")
-    password.send_keys('')
+    password.send_keys('PASSWORD')
     enter = browser.find_element_by_xpath(
         "//*[@class='                    Igw0E     IwRSH      eGOV_         _4EzTm                                                                                                              ']")
     enter.click()
